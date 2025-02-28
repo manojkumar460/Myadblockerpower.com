@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Blocker Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Ad Blocker Test</h1>
+        <p>Test how well your ad blocker performs</p>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </header>
+
+    <main>
+        <div class="test-options">
+            <div class="test-card" onclick="startTest('simple')">
+                <h2>🟢 Simple Test</h2>
+                <p>Basic ad blocking detection.</p>
+            </div>
+            <div class="test-card" onclick="startTest('moderate')">
+                <h2>🟡 Moderate Test</h2>
+                <p>Detects most ad types.</p>
+            </div>
+            <div class="test-card" onclick="startTest('ultra')">
+                <h2>🔴 Ultra Advanced Plus Test</h2>
+                <p>Advanced ad detection including hidden ads.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
